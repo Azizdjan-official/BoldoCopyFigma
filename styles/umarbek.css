@@ -422,8 +422,7 @@ footer {
   line-height: 32px;
 }
 
-.footer-1,
-p {
+.footer-1 {
   color: gray;
   text-align: end;
 }
