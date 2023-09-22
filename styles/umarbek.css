@@ -1,403 +1,406 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  body {
-    font-family: sans-serif;
-  }
-  nav {
-    display: flex;
-    width: 100%;
-    height: 42px;
-    padding-right: 0px;
-    gap: 610.431px;
-    flex-shrink: 0;
-  }
-  .container {
-    margin-top: 50px;
-  }
-  
-  .nav-bar {
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  .logo-img {
-    width: 25.91px;
-    height: 33.158px;
-    flex-shrink: 0;
-    margin-left: 100px;
-  }
-  
-  .logo-text {
-    display: flex;
-    width: 125.043px;
-    height: 42px;
-    text-decoration: none;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    font-family: "Manrope", sans-serif;
-    font-size: 43.25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 33.639px;
-  }
-  
-  .navigation,
-  ul {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    list-style: none;
-  }
-  
-  .nav-btn {
-    border: 2px solid #0a2640;
-    display: flex;
-    padding: 8px 40px;
-    align-items: flex-start;
-    gap: 8px;
-    border-radius: 24px;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  .bosh {
-    background-color: #0a2640;
-    width: 1346px;
-    height: 550px;
-    display: inline-block;
-  }
-  .about {
-    color: var(--Light-Grey, #f1f1f1);
-    /* Paragraphs/Text S */
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: center;
-    margin-top: 79px;
-  }
-  .make {
-    text-align: center;
-    color: #fff;
-    text-align: center;
-    /* Headings/TextXXXL */
-    font-family: Manrope;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 84px;
-  }
-  .funding {
-    color: gray;
-    text-align: center;
-    /* Paragraphs/Text XS */
-    font-family: Open Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-  }
-  .businassman {
-    margin-left: 180px;
-    display: inline-block;
-    width: 300px;
-    height: 285px;
-    flex-shrink: 0;
-    position: absolute;
-  }
-  .businasswoman {
-    width: 400px;
-    height: 632px;
-    flex-shrink: 0;
-    position: absolute;
-    left: 520px;
-  }
-  .student {
-    position: absolute;
-    left: 970px;
-    width: 302px;
-    height: 305px;
-    flex-shrink: 0;
-  }
-  .asisstent {
-    margin-top: 325px;
-    margin-left: 170px;
-    width: 300px;
-    height: 303px;
-    flex-shrink: 0;
-  }
-  .programmist {
-    margin-left: 500px;
-    width: 302px;
-    height: 287px;
-    flex-shrink: 0;
-  }
-  .story {
-    color: var(--Gray, #777);
-    /* Paragraphs/Text S */
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 50px;
-    margin-left: 330px;
-  }
-  .handshake {
-    color: #000;
-    font-family: Manrope;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 72px;
-    text-align: center;
-  }
-  .angel {
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    color: var(--Gray, #777);
-    text-align: center;
-    margin-bottom: 100px;
-  }
-  .numbers {
-    background-color: #0a2640;
-    width: 1349px;
-    height: 490px;
-  }
-  .cool {
-    color: #4fe9a4;
-    font-family: Manrope;
-    font-size: 96px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 56px;
-  }
-  .title {
-    color: var(--Light-Grey, #f1f1f1);
-    /* Paragraphs/Text M */
-    font-family: Open Sans;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 36px;
-  }
-  .our {
-    text-align: center;
-    color: gray;
-    display: inline-block;
-    margin-left: 637px;
-    margin-top: 94px;
-  }
-  .mass {
-    color: #fff;
-    text-align: center;
-    font-family: Manrope;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 72px;
-  }
-  .market {
-    display: flex;
-    width: 1000px;
-    margin-left: 200px;
-    margin-top: 50px;
-    gap: 20%;
-  }
-  .feature {
-    display: flex;
-    justify-content: center;
-    gap: 20%;
-    margin-top: 30px;
-  }
-  .team {
-    color: var(--Gray, #777);
-    /* Paragraphs/Text S */
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 100px;
-    margin-left: 300px;
-  }
-  .ship {
-    color: #000;
-    font-family: Manrope;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 72px;
-    margin-left: 300px;
-  }
-  .beta {
-    color: var(--Gray, #777);
-    /* Paragraphs/Text S */
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    margin-left: 300px;
-    margin-top: 15px;
-  }
-  /* .yellowhead {
-    width: 300px;
-    height: 354px;
-    margin-left: 200px;
-    margin-top: 52px;
-  } */
-  .krasavchiklar {
-    display: flex;
-    justify-content: center;
-    gap: 8%;
-    margin-top: 50px;
-  }
-  .pam {
-    color: #000;
-    /* Headings/Text L */
-    font-family: Manrope;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-    display: flex;
-    justify-content: center;
-    gap: 20%;
-  }
-  .general {
-    color: var(--Gray, #777);
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    display: flex;
-    justify-content: center;
-    gap: 20%;
-    margin-bottom: 120px;
-  }
-  .value {
-    color: gray;
-    /* Paragraphs/Text S */
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    margin-left: 300px;
-    display: inline-block;
-    margin-top: 120px;
-  }
-  .mover {
-    background-color: #0a2640;
-    width: 1346px;
-    height: 940px;
-  }
-  .things {
-    color: #fff;
-    font-family: Manrope;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    margin-left: 300px;
-    line-height: 72px; /* 150% */
-  }
-  .focus {
-    color: var(--Light-Grey, #f1f1f1);
-    /* Paragraphs/Text S */
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    margin-left: 300px;
-    font-weight: 400;
-    line-height: 32px; /* 160% */
-  }
-  .asstent {
-    margin-left: 300px;
-    margin-top: 20px;
-  }
-  .boss {
-    margin-left: 300px;
-    margin-top: 20px;
-  }
-  .cooperation {
-    margin-left: 300px;
-    margin-top: 20px;
-  }
-  .commi {
-    margin-left: 500px;
-    margin-top: -520px;
-    color: white;
-  }
-  .are {
-    font-family: Manrope;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-  }
-  .crow {
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    color: #f1f1f1;
-  }
-  .mommi {
-    margin-left: 500px;
-    color: white;
-    margin-top: 70px;
-  }
-  .ore {
-    font-family: Manrope;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-  }
-  .zrow {
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    color: #f1f1f1;
-  }
-  .aim {
-    margin-left: 500px;
-    color: white;
-    margin-top: 70px;
-  }
-  .for {
-    font-family: Manrope;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 48px;
-  }
-  .wfor {
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    color: #f1f1f1;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 42px;
+  padding-right: 0px;
+  gap: 610.431px;
+  flex-shrink: 0;
+}
+.container {
+  margin-top: 50px;
+}
+
+.nav-bar {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 25.91px;
+  height: 33.158px;
+  flex-shrink: 0;
+  margin-left: 100px;
+}
+
+.logo-text {
+  display: flex;
+  width: 125.043px;
+  height: 42px;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  font-family: "Manrope", sans-serif;
+  font-size: 43.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.639px;
+}
+
+.navigation,
+ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-btn {
+  border: 2px solid #0a2640;
+  display: flex;
+  padding: 8px 40px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 24px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.bosh {
+  background-color: #0a2640;
+  width: 1346px;
+  height: 550px;
+  display: inline-block;
+}
+.about {
+  color: var(--Light-Grey, #f1f1f1);
+  /* Paragraphs/Text S */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 79px;
+}
+.make {
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  /* Headings/TextXXXL */
+  font-family: Manrope;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 84px;
+}
+.funding {
+  color: gray;
+  text-align: center;
+  /* Paragraphs/Text XS */
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.businassman {
+  margin-left: 180px;
+  display: inline-block;
+  width: 300px;
+  height: 285px;
+  flex-shrink: 0;
+  position: absolute;
+}
+.businasswoman {
+  width: 400px;
+  height: 632px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 520px;
+}
+.student {
+  position: absolute;
+  left: 970px;
+  width: 302px;
+  height: 305px;
+  flex-shrink: 0;
+}
+.asisstent {
+  margin-top: 325px;
+  margin-left: 170px;
+  width: 300px;
+  height: 303px;
+  flex-shrink: 0;
+}
+.programmist {
+  margin-left: 500px;
+  width: 302px;
+  height: 287px;
+  flex-shrink: 0;
+}
+.story {
+  color: var(--Gray, #777);
+  /* Paragraphs/Text S */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 50px;
+  margin-left: 330px;
+}
+.handshake {
+  color: #000;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  text-align: center;
+}
+.angel {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--Gray, #777);
+  text-align: center;
+  margin-bottom: 100px;
+}
+.numbers {
+  background-color: #0a2640;
+  width: 1349px;
+  height: 490px;
+}
+.cool {
+  color: #4fe9a4;
+  font-family: Manrope;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+}
+.title {
+  color: var(--Light-Grey, #f1f1f1);
+  /* Paragraphs/Text M */
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+.our {
+  text-align: center;
+  color: gray;
+  display: inline-block;
+  margin-left: 637px;
+  margin-top: 94px;
+}
+.mass {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+}
+.market {
+  display: flex;
+  width: 1000px;
+  margin-left: 200px;
+  margin-top: 50px;
+  gap: 20%;
+}
+.feature {
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  margin-top: 30px;
+}
+.team {
+  color: var(--Gray, #777);
+  /* Paragraphs/Text S */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+.ship {
+  color: #000;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  margin-left: 300px;
+}
+.beta {
+  color: var(--Gray, #777);
+  /* Paragraphs/Text S */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 300px;
+  margin-top: 15px;
+}
+/* .yellowhead {
+  width: 300px;
+  height: 354px;
+  margin-left: 200px;
+  margin-top: 52px;
+} */
+.krasavchiklar {
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+  margin-top: 50px;
+}
+.pam {
+  color: #000;
+  /* Headings/Text L */
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+}
+.general {
+  color: var(--Gray, #777);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 20%;
+  margin-bottom: 120px;
+}
+.value {
+  color: gray;
+  /* Paragraphs/Text S */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 300px;
+  display: inline-block;
+  margin-top: 120px;
+}
+.mover {
+  background-color: #0a2640;
+  width: 1346px;
+  height: 940px;
+}
+.things {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 300px;
+  line-height: 72px; /* 150% */
+}
+.focus {
+  color: var(--Light-Grey, #f1f1f1);
+  /* Paragraphs/Text S */
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: 300px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+.asstent {
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.boss {
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.cooperation {
+  margin-left: 300px;
+  margin-top: 20px;
+}
+.commi {
+  margin-left: 500px;
+  margin-top: -520px;
+  color: white;
+}
+.are {
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.crow {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: #f1f1f1;
+}
+.mommi {
+  margin-left: 500px;
+  color: white;
+  margin-top: 70px;
+}
+.ore {
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.zrow {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: #f1f1f1;
+}
+.aim {
+  margin-left: 500px;
+  color: white;
+  margin-top: 70px;
+}
+.for {
+  font-family: Manrope;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+.wfor {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  color: #f1f1f1;
+}
+p{
+  color: red;
+}
